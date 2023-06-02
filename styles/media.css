@@ -1,0 +1,128 @@
+@media (max-width:1200px) {
+
+    .custom__cards,
+    .commerce__cards {
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 0 auto;
+
+    }
+
+
+}
+
+@media (max-width:992px) {
+    
+    .footer__inner_item_links{
+        align-items: center;
+    }
+    .footer__inner_item-title{
+        text-align: center;
+    }
+    .nav {
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .nav__list {
+        order: 1;
+    }
+
+    .nav__dropdown {
+        top: 160px;
+    }
+    .collection__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__inner{
+       flex-wrap: wrap;
+       gap: 30px;
+       justify-content: center;
+       max-width: 600px; 
+    }
+    .footer__inner_item:nth-child(3) .footer__icons{
+        align-items: start;
+        max-width: 120px;
+        margin: 0 auto;
+    }
+    .footer__item_form-text{
+        text-align: center;
+    }
+    .footer__itemn_form-icons{
+        gap: 0;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:768px) {
+    .header__content_title{
+        font-size: 37px;
+    }
+}
+
+@media (max-width:576px) {
+    .nav__list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav__list_link:nth-child(3){
+        order: 1;
+        position: relative;
+    }
+    .nav__dropdown{
+        top: 35px;
+        max-width: 120px;
+        
+    }
+    .nav__dropdown .nav__list_link a{
+        padding: 12px 0 12px 0;
+    }
+    .header__content_title{
+        padding: 15px 20px;
+        font-size: 30px;
+    }
+    .commerce__desc_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .collection__item_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .custom__desc_title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:377px) {
+    .collection__item_title{
+        text-align: center;
+    }
+    .header__content_title{
+        font-size :25px;
+        padding: 5px 30px;
+    }
+    .custom__desc_title{
+        font-size: 32px;
+    line-height: 42px;
+    }
+    .commerce__desc_title{
+    font-size: 35px;
+    line-height: 45px;
+        }
+}
+    
+
+
+@media (max-width:320px) {
+    .commerce__desc_title{
+        font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+    padding: 10px;
+    }
+}
